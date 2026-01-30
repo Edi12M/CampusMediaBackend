@@ -1,0 +1,6 @@
+@CampusMediaBack_HostAddress = http://localhost:5218
+
+GET {{CampusMediaBack_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
