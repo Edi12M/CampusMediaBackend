@@ -88,6 +88,9 @@ builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<IPostService, PostService>();
 builder.Services.AddScoped<IReviewService, ReviewService>();
 builder.Services.AddScoped<IStoryService, StoryService>();
+builder.Services.AddScoped<UserProfileService>();
+builder.Services.AddScoped<ProfilePostService>();
+builder.Services.AddScoped<CommentService>();
 
 // Configure CORS
 builder.Services.AddCors(options =>

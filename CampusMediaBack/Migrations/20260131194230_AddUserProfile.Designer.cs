@@ -3,6 +3,7 @@ using CampusMediaBack.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CampusMediaBack.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20260131194230_AddUserProfile")]
+    partial class AddUserProfile
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -20,38 +23,6 @@ namespace CampusMediaBack.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
             MySqlModelBuilderExtensions.AutoIncrementColumns(modelBuilder);
-
-            modelBuilder.Entity("CampusMediaBack.Models.Comment", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("CommentText")
-                        .IsRequired()
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("Date")
-                        .IsRequired()
-                        .HasColumnType("longtext");
-
-                    b.Property<int>("PostId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("UserName")
-                        .IsRequired()
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("UserSurname")
-                        .IsRequired()
-                        .HasColumnType("longtext");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Comments");
-                });
 
             modelBuilder.Entity("CampusMediaBack.Models.Department", b =>
                 {
@@ -421,22 +392,6 @@ namespace CampusMediaBack.Migrations
                             Likes = "[]",
                             UserId = 10
                         });
-                });
-
-            modelBuilder.Entity("CampusMediaBack.Models.PostDetail", b =>
-                {
-                    b.Property<int>("PostId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Feeling")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("Location")
-                        .HasColumnType("longtext");
-
-                    b.HasKey("PostId");
-
-                    b.ToTable("PostDetails");
                 });
 
             modelBuilder.Entity("CampusMediaBack.Models.Program", b =>
@@ -952,7 +907,7 @@ namespace CampusMediaBack.Migrations
                             Email = "user1@example.com",
                             Friends = "[]",
                             Name = "User 1",
-                            PasswordHash = "$2a$11$vQlg/02MlsPZvpghnUHIiufRwRrUndr7XL/eqIRmXx9FZ9aDYc5We",
+                            PasswordHash = "$2a$11$Rdsq66xQ78u7ghccZNsKYupZ08HB9APKqlEg64bnAl3xmJ0OfRY5C",
                             ProfileImage = "https://api.dicebear.com/7.x/avataaars/svg?seed=user1",
                             Role = "student",
                             Suggestions = "[]",
@@ -965,7 +920,7 @@ namespace CampusMediaBack.Migrations
                             Email = "user2@example.com",
                             Friends = "[]",
                             Name = "User 2",
-                            PasswordHash = "$2a$11$CMjt6FId5/FC2k9AHiF2g.M2Dx5rtr1pv62f/gfwUhghQLrFzBjB.",
+                            PasswordHash = "$2a$11$mG1DHa2ck5p4tZOHy59Kiu1QGBik5jUc.FQd7JfHLw28cZIUO4xgm",
                             ProfileImage = "https://api.dicebear.com/7.x/avataaars/svg?seed=user2",
                             Role = "student",
                             Suggestions = "[]",
@@ -978,7 +933,7 @@ namespace CampusMediaBack.Migrations
                             Email = "user3@example.com",
                             Friends = "[]",
                             Name = "User 3",
-                            PasswordHash = "$2a$11$J7ln0lfmPDntUa3iGjCEAe/IZRp7s0JaZPIuUGvFP5dP2YhR1QLpi",
+                            PasswordHash = "$2a$11$gmNN49rI.FT8ahgM0WhovOxcoy7riJp5Ay3HaN72JdeFKSk6GBWeW",
                             ProfileImage = "https://api.dicebear.com/7.x/avataaars/svg?seed=user3",
                             Role = "student",
                             Suggestions = "[]",
@@ -991,7 +946,7 @@ namespace CampusMediaBack.Migrations
                             Email = "user4@example.com",
                             Friends = "[]",
                             Name = "User 4",
-                            PasswordHash = "$2a$11$zOHI3A346p/xjxIdUn0.jesJybiLolcMMmpz0i8.tO16KfhPFeW8S",
+                            PasswordHash = "$2a$11$vWf31jtT8bvKzF4FTkto1.kqpGfPrpdwEoOLlKUJjehRVqgFcnRaq",
                             ProfileImage = "https://api.dicebear.com/7.x/avataaars/svg?seed=user4",
                             Role = "student",
                             Suggestions = "[]",
@@ -1004,7 +959,7 @@ namespace CampusMediaBack.Migrations
                             Email = "user5@example.com",
                             Friends = "[]",
                             Name = "User 5",
-                            PasswordHash = "$2a$11$wfQ6WY0C14BD2XaznXpMlen8NoQWCgXlQVb1.kizdcN7d4nJzNfei",
+                            PasswordHash = "$2a$11$YFSTvpwC5kNhOWQ7vrMnMepLqrurTi1hRYQEFvjT493ywZksd7leK",
                             ProfileImage = "https://api.dicebear.com/7.x/avataaars/svg?seed=user5",
                             Role = "student",
                             Suggestions = "[]",
@@ -1017,7 +972,7 @@ namespace CampusMediaBack.Migrations
                             Email = "user6@example.com",
                             Friends = "[]",
                             Name = "User 6",
-                            PasswordHash = "$2a$11$QNOqNpaQItPwtRDUfS.5FeCveT8REwGipLoPa4718LizY6bZshS4m",
+                            PasswordHash = "$2a$11$Uc9m7H0Tq2.0rgcROwl3HuA56tUkqWrodya6VxZ6sExFdVYBhuV0C",
                             ProfileImage = "https://api.dicebear.com/7.x/avataaars/svg?seed=user6",
                             Role = "student",
                             Suggestions = "[]",
@@ -1030,7 +985,7 @@ namespace CampusMediaBack.Migrations
                             Email = "user7@example.com",
                             Friends = "[]",
                             Name = "User 7",
-                            PasswordHash = "$2a$11$w2Yt8Xu/ySpLOkI3Jcg1oOmAPBuZ45vAp5cObzOyVG1Q7tNQH2Nzy",
+                            PasswordHash = "$2a$11$F.uQJFIM3i9xGFe753eNvuVI85jiSRtgAmJVK2nCDproS8DhAbxxC",
                             ProfileImage = "https://api.dicebear.com/7.x/avataaars/svg?seed=user7",
                             Role = "student",
                             Suggestions = "[]",
@@ -1043,7 +998,7 @@ namespace CampusMediaBack.Migrations
                             Email = "user8@example.com",
                             Friends = "[]",
                             Name = "User 8",
-                            PasswordHash = "$2a$11$s2mQxgciCnTc0DBGYpFTbePKUWKQ2gONCqN8V/E/tYbhNPcf.Q3rq",
+                            PasswordHash = "$2a$11$DxLFRFWTGVC2n2WrZLRMmu4B394PimJzsnp5YDzMLAbOBvd/aXr0C",
                             ProfileImage = "https://api.dicebear.com/7.x/avataaars/svg?seed=user8",
                             Role = "student",
                             Suggestions = "[]",
@@ -1056,7 +1011,7 @@ namespace CampusMediaBack.Migrations
                             Email = "user9@example.com",
                             Friends = "[]",
                             Name = "User 9",
-                            PasswordHash = "$2a$11$guwvgJoL3RaVkTyBunCsLuGBHy8jSqmsbBndhPkJkz.3rYt0VsdFi",
+                            PasswordHash = "$2a$11$mJsqI9.dVYKhbrsMmMmb6.8VYUmse.Us2bQUFra6P2i5iLmMKC9EK",
                             ProfileImage = "https://api.dicebear.com/7.x/avataaars/svg?seed=user9",
                             Role = "student",
                             Suggestions = "[]",
@@ -1069,30 +1024,12 @@ namespace CampusMediaBack.Migrations
                             Email = "user10@example.com",
                             Friends = "[]",
                             Name = "User 10",
-                            PasswordHash = "$2a$11$JgBRutY.I20tKsblUWUNou5R2ShAiLSOlERZMD.NhdLuMUpEBN5hK",
+                            PasswordHash = "$2a$11$uPA4jF6mDPqhpKlrcMpjcebQNCOBAs24a3NlJji99TpYdMTUqHbM6",
                             ProfileImage = "https://api.dicebear.com/7.x/avataaars/svg?seed=user10",
                             Role = "student",
                             Suggestions = "[]",
                             University = "University 1"
                         });
-                });
-
-            modelBuilder.Entity("CampusMediaBack.Models.UserProfile", b =>
-                {
-                    b.Property<int>("UserId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("About")
-                        .IsRequired()
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("Bio")
-                        .IsRequired()
-                        .HasColumnType("longtext");
-
-                    b.HasKey("UserId");
-
-                    b.ToTable("UserProfiles");
                 });
 
             modelBuilder.Entity("CampusMediaBack.Models.Department", b =>
@@ -1118,17 +1055,6 @@ namespace CampusMediaBack.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("CampusMediaBack.Models.PostDetail", b =>
-                {
-                    b.HasOne("CampusMediaBack.Models.Post", "Post")
-                        .WithOne()
-                        .HasForeignKey("CampusMediaBack.Models.PostDetail", "PostId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Post");
-                });
-
             modelBuilder.Entity("CampusMediaBack.Models.Program", b =>
                 {
                     b.HasOne("CampusMediaBack.Models.Department", null)
@@ -1143,17 +1069,6 @@ namespace CampusMediaBack.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-                });
-
-            modelBuilder.Entity("CampusMediaBack.Models.UserProfile", b =>
-                {
-                    b.HasOne("CampusMediaBack.Models.User", "User")
-                        .WithOne()
-                        .HasForeignKey("CampusMediaBack.Models.UserProfile", "UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("CampusMediaBack.Models.Department", b =>
