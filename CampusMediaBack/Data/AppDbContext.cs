@@ -31,6 +31,10 @@ public class AppDbContext : DbContext
             .HasOne(pd => pd.Post)
             .WithOne()
             .HasForeignKey<PostDetail>(pd => pd.PostId);
+        modelBuilder.Entity<Comment>()
+            .HasOne(c => c.Post)
+            .WithMany()
+            .HasForeignKey(c => c.PostId);
         modelBuilder.Entity<Review>().HasKey(r => r.Id);
         SeedData(modelBuilder);
     }
