@@ -1,4 +1,4 @@
-﻿namespace CampusMediaBack.DTOs;
+﻿﻿namespace CampusMediaBack.DTOs;
 public class PostDto
 {
     public int Id { get; set; }
@@ -12,6 +12,9 @@ public class FeedPostDto : PostDto
     public string PosterName { get; set; } = string.Empty;
     public string PosterImage { get; set; } = string.Empty;
     public int PosterId { get; set; }
+    public string? Feeling { get; set; }
+    public string? Location { get; set; }
+    public List<CommentResponseDto> Comments { get; set; } = new();
 }
 public class CreatePostRequest
 {

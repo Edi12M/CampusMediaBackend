@@ -18,7 +18,12 @@ public interface IPostService
 public class PostService : IPostService
 {
     private readonly AppDbContext _context;
-    public PostService(AppDbContext context) { _context = context; }
+    private readonly CommentService _commentService;
+    public PostService(AppDbContext context, CommentService commentService) 
+    { 
+        _context = context; 
+        _commentService = commentService;
+    }
 
     public async Task<List<FeedPostDto>> GetFeed(int currentUserId)
     {
@@ -32,7 +37,36 @@ public class PostService : IPostService
         {
             var poster = await _context.Users.FindAsync(post.UserId);
             if (poster != null)
-                feedPosts.Add(new FeedPostDto { Id = post.Id, Image = post.Image, Caption = post.Caption, Date = post.Date, Likes = post.Likes, PosterName = poster.Name, PosterImage = poster.ProfileImage, PosterId = poster.Id });
+            {
+                // Get post details (feeling and location)
+                var postDetail = await _context.PostDetails.FirstOrDefaultAsync(pd => pd.PostId == post.Id);
+                
+                // Get comments for this post
+                var comments = await _commentService.GetCommentsByPostId(post.Id);
+                var commentDtos = comments.Select(c => new CommentResponseDto
+                {
+                    Id = c.Id,
+                    UserName = c.UserName,
+                    UserSurname = c.UserSurname,
+                    CommentText = c.CommentText,
+                    Date = c.Date
+                }).ToList();
+
+                feedPosts.Add(new FeedPostDto 
+                { 
+                    Id = post.Id, 
+                    Image = post.Image, 
+                    Caption = post.Caption, 
+                    Date = post.Date, 
+                    Likes = post.Likes, 
+                    PosterName = poster.Name, 
+                    PosterImage = poster.ProfileImage, 
+                    PosterId = poster.Id,
+                    Feeling = postDetail?.Feeling,
+                    Location = postDetail?.Location,
+                    Comments = commentDtos
+                });
+            }
         }
         return feedPosts;
     }

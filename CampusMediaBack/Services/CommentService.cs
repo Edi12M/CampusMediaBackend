@@ -32,4 +32,13 @@ public class CommentService
     {
         return await _context.Comments.Where(c => c.PostId == postId).ToListAsync();
     }
+
+    public async Task<bool> DeleteComment(int commentId)
+    {
+        var comment = await _context.Comments.FindAsync(commentId);
+        if (comment == null) return false;
+        _context.Comments.Remove(comment);
+        await _context.SaveChangesAsync();
+        return true;
+    }
 }

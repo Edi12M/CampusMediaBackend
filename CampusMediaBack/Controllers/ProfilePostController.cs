@@ -88,4 +88,12 @@ public class ProfilePostController : ControllerBase
 
         return Ok(response);
     }
+
+    [HttpDelete("comment/{commentId}")]
+    public async Task<IActionResult> DeleteComment(int commentId)
+    {
+        var deleted = await _commentService.DeleteComment(commentId);
+        if (!deleted) return NotFound("Comment not found");
+        return NoContent();
+    }
 }
