@@ -16,6 +16,7 @@ public class AppDbContext : DbContext
     public DbSet<Models.Program> Programs { get; set; } = null!;
     public DbSet<Pedagogue> Pedagogues { get; set; } = null!;
     public DbSet<Review> Reviews { get; set; } = null!;
+    public DbSet<Message> Messages { get; set; } = null!;
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);
@@ -36,6 +37,30 @@ public class AppDbContext : DbContext
             .WithMany()
             .HasForeignKey(c => c.PostId);
         modelBuilder.Entity<Review>().HasKey(r => r.Id);
+        //chat
+        // Configure Sender relationship
+        modelBuilder.Entity<Message>()
+            .HasOne(m => m.Sender)
+            .WithMany() // No collection in User model, so leave empty
+            .HasForeignKey(m => m.SenderId)
+            .OnDelete(DeleteBehavior.Restrict);
+
+        // Configure Receiver relationship
+        modelBuilder.Entity<Message>()
+            .HasOne(m => m.Receiver)
+            .WithMany() // No collection in User model
+            .HasForeignKey(m => m.ReceiverId)
+            .OnDelete(DeleteBehavior.Restrict);
+
+        // Optional: Add indexes to improve query performance
+        modelBuilder.Entity<Message>()
+            .HasIndex(m => new { m.SenderId, m.ReceiverId });
+
+        modelBuilder.Entity<Message>()
+            .HasIndex(m => new { m.ReceiverId, m.IsRead });
+
+        modelBuilder.Entity<Message>()
+            .HasIndex(m => m.TimeSent); // Useful for ordering messages
         SeedData(modelBuilder);
     }
     private void SeedData(ModelBuilder modelBuilder)

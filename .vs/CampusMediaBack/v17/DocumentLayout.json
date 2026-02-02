@@ -1,0 +1,428 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\University\\Campus-Media\\CampusMediaBackend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3C2331CD-6384-4B28-A9F4-ED1269130EC3}|CampusMediaBack\\CampusMediaBack.csproj|c:\\users\\user\\desktop\\university\\campus-media\\campusmediabackend\\campusmediaback\\controllers\\messagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C2331CD-6384-4B28-A9F4-ED1269130EC3}|CampusMediaBack\\CampusMediaBack.csproj|solutionrelative:campusmediaback\\controllers\\messagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C2331CD-6384-4B28-A9F4-ED1269130EC3}|CampusMediaBack\\CampusMediaBack.csproj|c:\\users\\user\\desktop\\university\\campus-media\\campusmediabackend\\campusmediaback\\controllers\\conversationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C2331CD-6384-4B28-A9F4-ED1269130EC3}|CampusMediaBack\\CampusMediaBack.csproj|solutionrelative:campusmediaback\\controllers\\conversationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C2331CD-6384-4B28-A9F4-ED1269130EC3}|CampusMediaBack\\CampusMediaBack.csproj|c:\\users\\user\\desktop\\university\\campus-media\\campusmediabackend\\campusmediaback\\services\\messageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C2331CD-6384-4B28-A9F4-ED1269130EC3}|CampusMediaBack\\CampusMediaBack.csproj|solutionrelative:campusmediaback\\services\\messageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C2331CD-6384-4B28-A9F4-ED1269130EC3}|CampusMediaBack\\CampusMediaBack.csproj|c:\\users\\user\\desktop\\university\\campus-media\\campusmediabackend\\campusmediaback\\services\\conversationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C2331CD-6384-4B28-A9F4-ED1269130EC3}|CampusMediaBack\\CampusMediaBack.csproj|solutionrelative:campusmediaback\\services\\conversationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C2331CD-6384-4B28-A9F4-ED1269130EC3}|CampusMediaBack\\CampusMediaBack.csproj|c:\\users\\user\\desktop\\university\\campus-media\\campusmediabackend\\campusmediaback\\dtos\\conversationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C2331CD-6384-4B28-A9F4-ED1269130EC3}|CampusMediaBack\\CampusMediaBack.csproj|solutionrelative:campusmediaback\\dtos\\conversationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C2331CD-6384-4B28-A9F4-ED1269130EC3}|CampusMediaBack\\CampusMediaBack.csproj|c:\\users\\user\\desktop\\university\\campus-media\\campusmediabackend\\campusmediaback\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C2331CD-6384-4B28-A9F4-ED1269130EC3}|CampusMediaBack\\CampusMediaBack.csproj|solutionrelative:campusmediaback\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C2331CD-6384-4B28-A9F4-ED1269130EC3}|CampusMediaBack\\CampusMediaBack.csproj|c:\\users\\user\\desktop\\university\\campus-media\\campusmediabackend\\campusmediaback\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C2331CD-6384-4B28-A9F4-ED1269130EC3}|CampusMediaBack\\CampusMediaBack.csproj|solutionrelative:campusmediaback\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C2331CD-6384-4B28-A9F4-ED1269130EC3}|CampusMediaBack\\CampusMediaBack.csproj|c:\\users\\user\\desktop\\university\\campus-media\\campusmediabackend\\campusmediaback\\dtos\\sendmessagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C2331CD-6384-4B28-A9F4-ED1269130EC3}|CampusMediaBack\\CampusMediaBack.csproj|solutionrelative:campusmediaback\\dtos\\sendmessagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C2331CD-6384-4B28-A9F4-ED1269130EC3}|CampusMediaBack\\CampusMediaBack.csproj|c:\\users\\user\\desktop\\university\\campus-media\\campusmediabackend\\campusmediaback\\dtos\\storydtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C2331CD-6384-4B28-A9F4-ED1269130EC3}|CampusMediaBack\\CampusMediaBack.csproj|solutionrelative:campusmediaback\\dtos\\storydtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C2331CD-6384-4B28-A9F4-ED1269130EC3}|CampusMediaBack\\CampusMediaBack.csproj|c:\\users\\user\\desktop\\university\\campus-media\\campusmediabackend\\campusmediaback\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C2331CD-6384-4B28-A9F4-ED1269130EC3}|CampusMediaBack\\CampusMediaBack.csproj|solutionrelative:campusmediaback\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C2331CD-6384-4B28-A9F4-ED1269130EC3}|CampusMediaBack\\CampusMediaBack.csproj|c:\\users\\user\\desktop\\university\\campus-media\\campusmediabackend\\campusmediaback\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3C2331CD-6384-4B28-A9F4-ED1269130EC3}|CampusMediaBack\\CampusMediaBack.csproj|solutionrelative:campusmediaback\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C2331CD-6384-4B28-A9F4-ED1269130EC3}|CampusMediaBack\\CampusMediaBack.csproj|c:\\users\\user\\desktop\\university\\campus-media\\campusmediabackend\\campusmediaback\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C2331CD-6384-4B28-A9F4-ED1269130EC3}|CampusMediaBack\\CampusMediaBack.csproj|solutionrelative:campusmediaback\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C2331CD-6384-4B28-A9F4-ED1269130EC3}|CampusMediaBack\\CampusMediaBack.csproj|c:\\users\\user\\desktop\\university\\campus-media\\campusmediabackend\\campusmediaback\\dtos\\userprofileresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C2331CD-6384-4B28-A9F4-ED1269130EC3}|CampusMediaBack\\CampusMediaBack.csproj|solutionrelative:campusmediaback\\dtos\\userprofileresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C2331CD-6384-4B28-A9F4-ED1269130EC3}|CampusMediaBack\\CampusMediaBack.csproj|c:\\users\\user\\desktop\\university\\campus-media\\campusmediabackend\\campusmediaback\\dtos\\updatebiodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C2331CD-6384-4B28-A9F4-ED1269130EC3}|CampusMediaBack\\CampusMediaBack.csproj|solutionrelative:campusmediaback\\dtos\\updatebiodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C2331CD-6384-4B28-A9F4-ED1269130EC3}|CampusMediaBack\\CampusMediaBack.csproj|c:\\users\\user\\desktop\\university\\campus-media\\campusmediabackend\\campusmediaback\\dtos\\updateaboutdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C2331CD-6384-4B28-A9F4-ED1269130EC3}|CampusMediaBack\\CampusMediaBack.csproj|solutionrelative:campusmediaback\\dtos\\updateaboutdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C2331CD-6384-4B28-A9F4-ED1269130EC3}|CampusMediaBack\\CampusMediaBack.csproj|c:\\users\\user\\desktop\\university\\campus-media\\campusmediabackend\\campusmediaback\\dtos\\studentdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C2331CD-6384-4B28-A9F4-ED1269130EC3}|CampusMediaBack\\CampusMediaBack.csproj|solutionrelative:campusmediaback\\dtos\\studentdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C2331CD-6384-4B28-A9F4-ED1269130EC3}|CampusMediaBack\\CampusMediaBack.csproj|c:\\users\\user\\desktop\\university\\campus-media\\campusmediabackend\\campusmediaback\\dtos\\searchdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C2331CD-6384-4B28-A9F4-ED1269130EC3}|CampusMediaBack\\CampusMediaBack.csproj|solutionrelative:campusmediaback\\dtos\\searchdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C2331CD-6384-4B28-A9F4-ED1269130EC3}|CampusMediaBack\\CampusMediaBack.csproj|c:\\users\\user\\desktop\\university\\campus-media\\campusmediabackend\\campusmediaback\\dtos\\reviewdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C2331CD-6384-4B28-A9F4-ED1269130EC3}|CampusMediaBack\\CampusMediaBack.csproj|solutionrelative:campusmediaback\\dtos\\reviewdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C2331CD-6384-4B28-A9F4-ED1269130EC3}|CampusMediaBack\\CampusMediaBack.csproj|c:\\users\\user\\desktop\\university\\campus-media\\campusmediabackend\\campusmediaback\\dtos\\postresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C2331CD-6384-4B28-A9F4-ED1269130EC3}|CampusMediaBack\\CampusMediaBack.csproj|solutionrelative:campusmediaback\\dtos\\postresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C2331CD-6384-4B28-A9F4-ED1269130EC3}|CampusMediaBack\\CampusMediaBack.csproj|c:\\users\\user\\desktop\\university\\campus-media\\campusmediabackend\\campusmediaback\\dtos\\postdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C2331CD-6384-4B28-A9F4-ED1269130EC3}|CampusMediaBack\\CampusMediaBack.csproj|solutionrelative:campusmediaback\\dtos\\postdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C2331CD-6384-4B28-A9F4-ED1269130EC3}|CampusMediaBack\\CampusMediaBack.csproj|c:\\users\\user\\desktop\\university\\campus-media\\campusmediabackend\\campusmediaback\\dtos\\pedagoguedtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C2331CD-6384-4B28-A9F4-ED1269130EC3}|CampusMediaBack\\CampusMediaBack.csproj|solutionrelative:campusmediaback\\dtos\\pedagoguedtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C2331CD-6384-4B28-A9F4-ED1269130EC3}|CampusMediaBack\\CampusMediaBack.csproj|c:\\users\\user\\desktop\\university\\campus-media\\campusmediabackend\\campusmediaback\\dtos\\createpostfromprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C2331CD-6384-4B28-A9F4-ED1269130EC3}|CampusMediaBack\\CampusMediaBack.csproj|solutionrelative:campusmediaback\\dtos\\createpostfromprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C2331CD-6384-4B28-A9F4-ED1269130EC3}|CampusMediaBack\\CampusMediaBack.csproj|c:\\users\\user\\desktop\\university\\campus-media\\campusmediabackend\\campusmediaback\\dtos\\createcommentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C2331CD-6384-4B28-A9F4-ED1269130EC3}|CampusMediaBack\\CampusMediaBack.csproj|solutionrelative:campusmediaback\\dtos\\createcommentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C2331CD-6384-4B28-A9F4-ED1269130EC3}|CampusMediaBack\\CampusMediaBack.csproj|c:\\users\\user\\desktop\\university\\campus-media\\campusmediabackend\\campusmediaback\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C2331CD-6384-4B28-A9F4-ED1269130EC3}|CampusMediaBack\\CampusMediaBack.csproj|solutionrelative:campusmediaback\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ConversationService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\University\\Campus-Media\\CampusMediaBackend\\CampusMediaBack\\Services\\ConversationService.cs",
+              "RelativeDocumentMoniker": "CampusMediaBack\\Services\\ConversationService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\University\\Campus-Media\\CampusMediaBackend\\CampusMediaBack\\Services\\ConversationService.cs",
+              "RelativeToolTip": "CampusMediaBack\\Services\\ConversationService.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwCYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T02:26:10.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MessageService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\University\\Campus-Media\\CampusMediaBackend\\CampusMediaBack\\Services\\MessageService.cs",
+              "RelativeDocumentMoniker": "CampusMediaBack\\Services\\MessageService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\University\\Campus-Media\\CampusMediaBackend\\CampusMediaBack\\Services\\MessageService.cs",
+              "RelativeToolTip": "CampusMediaBack\\Services\\MessageService.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAUwA8AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T02:26:45.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MessageController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\University\\Campus-Media\\CampusMediaBackend\\CampusMediaBack\\Controllers\\MessageController.cs",
+              "RelativeDocumentMoniker": "CampusMediaBack\\Controllers\\MessageController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\University\\Campus-Media\\CampusMediaBackend\\CampusMediaBack\\Controllers\\MessageController.cs",
+              "RelativeToolTip": "CampusMediaBack\\Controllers\\MessageController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAABsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T02:38:21.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ConversationController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\University\\Campus-Media\\CampusMediaBackend\\CampusMediaBack\\Controllers\\ConversationController.cs",
+              "RelativeDocumentMoniker": "CampusMediaBack\\Controllers\\ConversationController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\University\\Campus-Media\\CampusMediaBackend\\CampusMediaBack\\Controllers\\ConversationController.cs",
+              "RelativeToolTip": "CampusMediaBack\\Controllers\\ConversationController.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAABAAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T02:37:42.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ConversationDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\University\\Campus-Media\\CampusMediaBackend\\CampusMediaBack\\DTOs\\ConversationDto.cs",
+              "RelativeDocumentMoniker": "CampusMediaBack\\DTOs\\ConversationDto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\University\\Campus-Media\\CampusMediaBackend\\CampusMediaBack\\DTOs\\ConversationDto.cs",
+              "RelativeToolTip": "CampusMediaBack\\DTOs\\ConversationDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T02:27:22.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\University\\Campus-Media\\CampusMediaBackend\\CampusMediaBack\\Models\\User.cs",
+              "RelativeDocumentMoniker": "CampusMediaBack\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\University\\Campus-Media\\CampusMediaBackend\\CampusMediaBack\\Models\\User.cs",
+              "RelativeToolTip": "CampusMediaBack\\Models\\User.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAwAoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T02:32:37.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Message.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\University\\Campus-Media\\CampusMediaBackend\\CampusMediaBack\\Models\\Message.cs",
+              "RelativeDocumentMoniker": "CampusMediaBack\\Models\\Message.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\University\\Campus-Media\\CampusMediaBackend\\CampusMediaBack\\Models\\Message.cs",
+              "RelativeToolTip": "CampusMediaBack\\Models\\Message.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T02:25:04.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SendMessageDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\University\\Campus-Media\\CampusMediaBackend\\CampusMediaBack\\DTOs\\SendMessageDto.cs",
+              "RelativeDocumentMoniker": "CampusMediaBack\\DTOs\\SendMessageDto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\University\\Campus-Media\\CampusMediaBackend\\CampusMediaBack\\DTOs\\SendMessageDto.cs",
+              "RelativeToolTip": "CampusMediaBack\\DTOs\\SendMessageDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T02:36:07.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StoryDtos.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\University\\Campus-Media\\CampusMediaBackend\\CampusMediaBack\\DTOs\\StoryDtos.cs",
+              "RelativeDocumentMoniker": "CampusMediaBack\\DTOs\\StoryDtos.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\University\\Campus-Media\\CampusMediaBackend\\CampusMediaBack\\DTOs\\StoryDtos.cs",
+              "RelativeToolTip": "CampusMediaBack\\DTOs\\StoryDtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T02:31:15.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\University\\Campus-Media\\CampusMediaBackend\\CampusMediaBack\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "CampusMediaBack\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\University\\Campus-Media\\CampusMediaBackend\\CampusMediaBack\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "CampusMediaBack\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAA+wD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T02:39:02.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\University\\Campus-Media\\CampusMediaBackend\\CampusMediaBack\\appsettings.json",
+              "RelativeDocumentMoniker": "CampusMediaBack\\appsettings.json",
+              "ToolTip": "C:\\Users\\User\\Desktop\\University\\Campus-Media\\CampusMediaBackend\\CampusMediaBack\\appsettings.json",
+              "RelativeToolTip": "CampusMediaBack\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-02T02:41:00.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\University\\Campus-Media\\CampusMediaBackend\\CampusMediaBack\\Program.cs",
+              "RelativeDocumentMoniker": "CampusMediaBack\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\University\\Campus-Media\\CampusMediaBackend\\CampusMediaBack\\Program.cs",
+              "RelativeToolTip": "CampusMediaBack\\Program.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAGEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T02:40:30.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserProfileResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\University\\Campus-Media\\CampusMediaBackend\\CampusMediaBack\\DTOs\\UserProfileResponseDto.cs",
+              "RelativeDocumentMoniker": "CampusMediaBack\\DTOs\\UserProfileResponseDto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\University\\Campus-Media\\CampusMediaBackend\\CampusMediaBack\\DTOs\\UserProfileResponseDto.cs",
+              "RelativeToolTip": "CampusMediaBack\\DTOs\\UserProfileResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T02:31:23.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UpdateBioDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\University\\Campus-Media\\CampusMediaBackend\\CampusMediaBack\\DTOs\\UpdateBioDto.cs",
+              "RelativeDocumentMoniker": "CampusMediaBack\\DTOs\\UpdateBioDto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\University\\Campus-Media\\CampusMediaBackend\\CampusMediaBack\\DTOs\\UpdateBioDto.cs",
+              "RelativeToolTip": "CampusMediaBack\\DTOs\\UpdateBioDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T02:31:21.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UpdateAboutDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\University\\Campus-Media\\CampusMediaBackend\\CampusMediaBack\\DTOs\\UpdateAboutDto.cs",
+              "RelativeDocumentMoniker": "CampusMediaBack\\DTOs\\UpdateAboutDto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\University\\Campus-Media\\CampusMediaBackend\\CampusMediaBack\\DTOs\\UpdateAboutDto.cs",
+              "RelativeToolTip": "CampusMediaBack\\DTOs\\UpdateAboutDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T02:31:19.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "StudentDtos.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\University\\Campus-Media\\CampusMediaBackend\\CampusMediaBack\\DTOs\\StudentDtos.cs",
+              "RelativeDocumentMoniker": "CampusMediaBack\\DTOs\\StudentDtos.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\University\\Campus-Media\\CampusMediaBackend\\CampusMediaBack\\DTOs\\StudentDtos.cs",
+              "RelativeToolTip": "CampusMediaBack\\DTOs\\StudentDtos.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T02:31:17.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SearchDtos.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\University\\Campus-Media\\CampusMediaBackend\\CampusMediaBack\\DTOs\\SearchDtos.cs",
+              "RelativeDocumentMoniker": "CampusMediaBack\\DTOs\\SearchDtos.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\University\\Campus-Media\\CampusMediaBackend\\CampusMediaBack\\DTOs\\SearchDtos.cs",
+              "RelativeToolTip": "CampusMediaBack\\DTOs\\SearchDtos.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAA4wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T02:31:10.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ReviewDtos.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\University\\Campus-Media\\CampusMediaBackend\\CampusMediaBack\\DTOs\\ReviewDtos.cs",
+              "RelativeDocumentMoniker": "CampusMediaBack\\DTOs\\ReviewDtos.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\University\\Campus-Media\\CampusMediaBackend\\CampusMediaBack\\DTOs\\ReviewDtos.cs",
+              "RelativeToolTip": "CampusMediaBack\\DTOs\\ReviewDtos.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T02:31:07.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PostResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\University\\Campus-Media\\CampusMediaBackend\\CampusMediaBack\\DTOs\\PostResponseDto.cs",
+              "RelativeDocumentMoniker": "CampusMediaBack\\DTOs\\PostResponseDto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\University\\Campus-Media\\CampusMediaBackend\\CampusMediaBack\\DTOs\\PostResponseDto.cs",
+              "RelativeToolTip": "CampusMediaBack\\DTOs\\PostResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T02:31:04.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PostDtos.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\University\\Campus-Media\\CampusMediaBackend\\CampusMediaBack\\DTOs\\PostDtos.cs",
+              "RelativeDocumentMoniker": "CampusMediaBack\\DTOs\\PostDtos.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\University\\Campus-Media\\CampusMediaBackend\\CampusMediaBack\\DTOs\\PostDtos.cs",
+              "RelativeToolTip": "CampusMediaBack\\DTOs\\PostDtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T02:31:00.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PedagogueDtos.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\University\\Campus-Media\\CampusMediaBackend\\CampusMediaBack\\DTOs\\PedagogueDtos.cs",
+              "RelativeDocumentMoniker": "CampusMediaBack\\DTOs\\PedagogueDtos.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\University\\Campus-Media\\CampusMediaBackend\\CampusMediaBack\\DTOs\\PedagogueDtos.cs",
+              "RelativeToolTip": "CampusMediaBack\\DTOs\\PedagogueDtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T02:30:58.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CreatePostFromProfileDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\University\\Campus-Media\\CampusMediaBackend\\CampusMediaBack\\DTOs\\CreatePostFromProfileDto.cs",
+              "RelativeDocumentMoniker": "CampusMediaBack\\DTOs\\CreatePostFromProfileDto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\University\\Campus-Media\\CampusMediaBackend\\CampusMediaBack\\DTOs\\CreatePostFromProfileDto.cs",
+              "RelativeToolTip": "CampusMediaBack\\DTOs\\CreatePostFromProfileDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T02:30:57.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CreateCommentDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\University\\Campus-Media\\CampusMediaBackend\\CampusMediaBack\\DTOs\\CreateCommentDto.cs",
+              "RelativeDocumentMoniker": "CampusMediaBack\\DTOs\\CreateCommentDto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\University\\Campus-Media\\CampusMediaBackend\\CampusMediaBack\\DTOs\\CreateCommentDto.cs",
+              "RelativeToolTip": "CampusMediaBack\\DTOs\\CreateCommentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T02:30:55.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\University\\Campus-Media\\CampusMediaBackend\\CampusMediaBack\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "CampusMediaBack\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\University\\Campus-Media\\CampusMediaBackend\\CampusMediaBack\\Services\\UserService.cs",
+              "RelativeToolTip": "CampusMediaBack\\Services\\UserService.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T02:30:13.634Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
