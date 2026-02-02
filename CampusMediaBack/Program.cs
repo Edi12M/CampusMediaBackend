@@ -94,6 +94,7 @@ builder.Services.AddScoped<ProfilePostService>();
 builder.Services.AddScoped<CommentService>();
 builder.Services.AddScoped<MessageService>();
 builder.Services.AddScoped<ConversationService>();
+builder.Services.AddScoped<FriendRequestService>();
 
 // Configure CORS
 builder.Services.AddCors(options =>

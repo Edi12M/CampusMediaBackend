@@ -1,4 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿﻿using Microsoft.EntityFrameworkCore;
 using CampusMediaBack.Models;
 namespace CampusMediaBack.Data;
 
@@ -17,6 +17,7 @@ public class AppDbContext : DbContext
     public DbSet<Pedagogue> Pedagogues { get; set; } = null!;
     public DbSet<Review> Reviews { get; set; } = null!;
     public DbSet<Message> Messages { get; set; } = null!;
+    public DbSet<FriendRequest> FriendRequests { get; set; } = null!;
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);
@@ -61,6 +62,26 @@ public class AppDbContext : DbContext
 
         modelBuilder.Entity<Message>()
             .HasIndex(m => m.TimeSent); // Useful for ordering messages
+
+        // FriendRequest configuration
+        modelBuilder.Entity<FriendRequest>()
+            .HasOne(fr => fr.Sender)
+            .WithMany()
+            .HasForeignKey(fr => fr.SenderId)
+            .OnDelete(DeleteBehavior.Restrict);
+
+        modelBuilder.Entity<FriendRequest>()
+            .HasOne(fr => fr.Receiver)
+            .WithMany()
+            .HasForeignKey(fr => fr.ReceiverId)
+            .OnDelete(DeleteBehavior.Restrict);
+
+        modelBuilder.Entity<FriendRequest>()
+            .HasIndex(fr => new { fr.SenderId, fr.ReceiverId });
+
+        modelBuilder.Entity<FriendRequest>()
+            .HasIndex(fr => new { fr.ReceiverId, fr.Status });
+
         SeedData(modelBuilder);
     }
     private void SeedData(ModelBuilder modelBuilder)
