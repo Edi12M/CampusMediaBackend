@@ -8,7 +8,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2066b9b-9ce8-4dcb-8b32-de20b7bb0ba6" name="Changes" comment="" />
+    <list default="true" id="c2066b9b-9ce8-4dcb-8b32-de20b7bb0ba6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CampusMediaBack/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CampusMediaBack/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,6 +45,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/CampusMediaBack/Services/AuthService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CampusMediaBack/Services/CurrentUserService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CampusMediaBack/Services/FriendRequestService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CampusMediaBack/Services/PostService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CampusMediaBack/Services/ReviewService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CampusMediaBack/Services/StoryService.cs" root0="FORCE_HIGHLIGHTING" />
@@ -50,7 +53,7 @@
     <setting file="file://$PROJECT_DIR$/global.json" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="SWEA" />
+    <option name="selectedTabId" value="Toolset" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -134,7 +137,10 @@
       <workItem from="1769950671709" duration="1044000" />
       <workItem from="1769970384386" duration="541000" />
       <workItem from="1770022970658" duration="2600000" />
-      <workItem from="1770040006595" duration="1488000" />
+      <workItem from="1770040006595" duration="1639000" />
+      <workItem from="1770042501175" duration="149000" />
+      <workItem from="1770042976531" duration="10000" />
+      <workItem from="1770043131956" duration="979000" />
     </task>
     <servers />
   </component>
@@ -147,7 +153,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="Endpoints" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -173,13 +191,13 @@
         </breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/CampusMediaBack/Program.cs</url>
-          <line>132</line>
+          <line>133</line>
           <properties documentPath="C:\Users\edime\OneDrive\Desktop\CampusMediaBack\CampusMediaBack\Program.cs" containingFunctionPresentation="">
             <startOffsets>
-              <option value="4217" />
+              <option value="4269" />
             </startOffsets>
             <endOffsets>
-              <option value="4218" />
+              <option value="4270" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="4" />
